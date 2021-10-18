@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family_Poppins&display=sap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    --hover-color: #EDEDED;
+    --text-color: #1F1F1F;
+    --sec-color: #1F243D;
+    --color: #f0f0f0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: var(--color);
+    background-color: #191d32;
+}
+
+.card{
+    width: 380px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.151);
+    background: var(--sec-color);
+    border-radius: 20px;
+}
+
+.card img{
+    width: 210px;
+    height: 220px;
+    border-radius: 100%;
+}
+
+.title{
+    padding-top: 15px;
+}
+
+.btn{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 1em;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.151);
+    cursor: pointer;
+    background: var(--sec-color);
+    transition:  all .4s;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+}
+
+.btn:hover{
+    background: var(--hover-color);
+    color: var(--text-color);
+    font-size: 15px;
+}
+
+.icons{
+    width: 380px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+a{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background: rgb(221, 221, 221);
+    color: #242424;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    border-radius: 15%;
+    transition: all .4s;
+}
+
+a:hover:nth-child(1){
+    color: #c32aa3;
+    text-shadow:  0 0 20px #c32aa3;
+}
+
+a:hover:nth-child(2){
+    color: #25d366;
+    text-shadow:  0 0 20px #25d366;
+}
+
+a:hover:nth-child(3){
+    color: #0a66c2;
+    text-shadow:  0 0 20px #0a66c2;
+}
+
+
+a:hover:nth-child(4){
+    color: #000000;
+    text-shadow:  0 0 20px #000000;
+}
