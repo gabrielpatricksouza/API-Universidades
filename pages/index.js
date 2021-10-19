@@ -11,7 +11,7 @@ function Home() {
                         <h1 class="title">Gabriel Patrick</h1>
                         <p>Sofware Developer</p>
 
-                        <form action="#">
+                        <form action="https://documentacao-api-universidades.vercel.app/">
                             <button class="btn" type="submit" >Documentação</button>
                         </form>
                     </div>
